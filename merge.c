@@ -35,5 +35,5 @@ int main(){
     for(int i = 0; i < arrlen; i++){
         printf("%i -> %c%c\n",indexarr[i], testo[indexarr[i]], testo[indexarr[i] + 1]);
     }
-    printf("Sto modificando questo file!!!! Adesso Pullo\n");
+    printf("Sto modificando questo file!!!! Adesso provo a pullare\n");
 }
