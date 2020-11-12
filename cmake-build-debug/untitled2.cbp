@@ -27,42 +27,6 @@
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ciclifor">
-				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/ciclifor.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ciclifor"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ciclifor/fast">
-				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/ciclifor.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ciclifor/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
 				<Option type="4"/>
@@ -73,8 +37,8 @@
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main4">
-				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/main4.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="test">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -85,14 +49,14 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 main4"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
 					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main4/fast">
-				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/main4.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="test/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -103,14 +67,14 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 main4/fast"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
 					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="giochino">
-				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/giochino.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="merge">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/merge.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -121,14 +85,14 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 giochino"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 merge"/>
 					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="giochino/fast">
-				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/giochino.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="merge/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/merge.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -139,14 +103,14 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 giochino/fast"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 merge/fast"/>
 					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="maxcol">
-				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/maxcol.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="sommarr">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/sommarr.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -157,14 +121,14 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 maxcol"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 sommarr"/>
 					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="maxcol/fast">
-				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/maxcol.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="sommarr/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/sommarr.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -175,14 +139,14 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 maxcol/fast"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 sommarr/fast"/>
 					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main3">
-				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/main3.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="printes">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/printes.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -193,14 +157,14 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 main3"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 printes"/>
 					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main3/fast">
-				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/main3.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="printes/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/printes.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -211,14 +175,14 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 main3/fast"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 printes/fast"/>
 					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="es147">
-				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/es147.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="escorona">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/escorona.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -229,14 +193,14 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 es147"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 escorona"/>
 					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="es147/fast">
-				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/es147.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="escorona/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/escorona.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -247,79 +211,7 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 es147/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main2">
-				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/main2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main2/fast">
-				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/main2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tabverit">
-				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/tabverit.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 tabverit"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tabverit/fast">
-				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/tabverit.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 tabverit/fast"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 escorona/fast"/>
 					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -361,6 +253,510 @@
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="tabverit">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/tabverit.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 tabverit"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tabverit/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/tabverit.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 tabverit/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/main2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main2/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/main2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 main2/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="es147">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/es147.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 es147"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="es147/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/es147.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 es147/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="esassoluto">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/esassoluto.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 esassoluto"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="esassoluto/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/esassoluto.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 esassoluto/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main3">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/main3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 main3"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main3/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/main3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 main3/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maxcol">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/maxcol.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 maxcol"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maxcol/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/maxcol.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 maxcol/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="giochino">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/giochino.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 giochino"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="giochino/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/giochino.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 giochino/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main4">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/main4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 main4"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main4/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/main4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 main4/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ciclifor">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/ciclifor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ciclifor"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ciclifor/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/ciclifor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ciclifor/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="es2">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/es2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 es2"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="es2/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/es2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 es2/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="distanzaes">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/distanzaes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 distanzaes"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="distanzaes/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/distanzaes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 distanzaes/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="es1">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/es1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 es1"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="es1/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/es1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 es1/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="es3">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/es3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 es3"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="es3/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/es3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 es3/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="es4">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/es4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 es4"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="es4/fast">
+				<Option output="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/es4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 es4/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/areacerchio.c">
 			<Option target="main4"/>
@@ -371,8 +767,29 @@
 		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/ciclifor.c">
 			<Option target="ciclifor"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/distanzaes.c">
+			<Option target="distanzaes"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/es1.c">
+			<Option target="es1"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/es147.c">
 			<Option target="es147"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/es2.c">
+			<Option target="es2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/es3.c">
+			<Option target="es3"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/es4.c">
+			<Option target="es4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/esassoluto.c">
+			<Option target="esassoluto"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/escorona.c">
+			<Option target="escorona"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/giochino.c">
 			<Option target="giochino"/>
@@ -382,6 +799,20 @@
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/libk.h">
 			<Option target="es147"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/library.c">
+			<Option target="sommarr"/>
+			<Option target="printes"/>
+			<Option target="escorona"/>
+			<Option target="esassoluto"/>
+			<Option target="distanzaes"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/library.h">
+			<Option target="sommarr"/>
+			<Option target="printes"/>
+			<Option target="escorona"/>
+			<Option target="esassoluto"/>
+			<Option target="distanzaes"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/main.c">
 			<Option target="untitled2"/>
@@ -401,11 +832,29 @@
 		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/maxcolfunc.h">
 			<Option target="maxcol"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/merge.c">
+			<Option target="merge"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/mergelib.c">
+			<Option target="merge"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/mergelib.h">
+			<Option target="merge"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/password.c">
 			<Option target="main3"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/printeins.c">
+			<Option target="printes"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/sommarr.c">
+			<Option target="sommarr"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/tabverit.c">
 			<Option target="tabverit"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/test.c">
+			<Option target="test"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/IO/CLionProjects/untitled2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

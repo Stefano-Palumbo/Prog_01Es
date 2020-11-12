@@ -131,95 +131,82 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ciclifor
+# Target rules for targets named test
 
 # Build rule for target.
-ciclifor: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ciclifor
-.PHONY : ciclifor
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
+.PHONY : test
 
 # fast build rule for target.
-ciclifor/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ciclifor.dir/build.make CMakeFiles/ciclifor.dir/build
-.PHONY : ciclifor/fast
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 #=============================================================================
-# Target rules for targets named main4
+# Target rules for targets named merge
 
 # Build rule for target.
-main4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main4
-.PHONY : main4
+merge: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 merge
+.PHONY : merge
 
 # fast build rule for target.
-main4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/build
-.PHONY : main4/fast
+merge/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/build
+.PHONY : merge/fast
 
 #=============================================================================
-# Target rules for targets named giochino
+# Target rules for targets named sommarr
 
 # Build rule for target.
-giochino: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 giochino
-.PHONY : giochino
+sommarr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sommarr
+.PHONY : sommarr
 
 # fast build rule for target.
-giochino/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/giochino.dir/build.make CMakeFiles/giochino.dir/build
-.PHONY : giochino/fast
+sommarr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sommarr.dir/build.make CMakeFiles/sommarr.dir/build
+.PHONY : sommarr/fast
 
 #=============================================================================
-# Target rules for targets named maxcol
+# Target rules for targets named printes
 
 # Build rule for target.
-maxcol: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 maxcol
-.PHONY : maxcol
+printes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 printes
+.PHONY : printes
 
 # fast build rule for target.
-maxcol/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxcol.dir/build.make CMakeFiles/maxcol.dir/build
-.PHONY : maxcol/fast
+printes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printes.dir/build.make CMakeFiles/printes.dir/build
+.PHONY : printes/fast
 
 #=============================================================================
-# Target rules for targets named main3
+# Target rules for targets named escorona
 
 # Build rule for target.
-main3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main3
-.PHONY : main3
+escorona: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 escorona
+.PHONY : escorona
 
 # fast build rule for target.
-main3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/build
-.PHONY : main3/fast
+escorona/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/escorona.dir/build.make CMakeFiles/escorona.dir/build
+.PHONY : escorona/fast
 
 #=============================================================================
-# Target rules for targets named es147
+# Target rules for targets named untitled2
 
 # Build rule for target.
-es147: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 es147
-.PHONY : es147
+untitled2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled2
+.PHONY : untitled2
 
 # fast build rule for target.
-es147/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/es147.dir/build.make CMakeFiles/es147.dir/build
-.PHONY : es147/fast
-
-#=============================================================================
-# Target rules for targets named main2
-
-# Build rule for target.
-main2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main2
-.PHONY : main2
-
-# fast build rule for target.
-main2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/build
-.PHONY : main2/fast
+untitled2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/build
+.PHONY : untitled2/fast
 
 #=============================================================================
 # Target rules for targets named tabverit
@@ -235,17 +222,173 @@ tabverit/fast:
 .PHONY : tabverit/fast
 
 #=============================================================================
-# Target rules for targets named untitled2
+# Target rules for targets named main2
 
 # Build rule for target.
-untitled2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled2
-.PHONY : untitled2
+main2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main2
+.PHONY : main2
 
 # fast build rule for target.
-untitled2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/build
-.PHONY : untitled2/fast
+main2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/build
+.PHONY : main2/fast
+
+#=============================================================================
+# Target rules for targets named es147
+
+# Build rule for target.
+es147: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 es147
+.PHONY : es147
+
+# fast build rule for target.
+es147/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/es147.dir/build.make CMakeFiles/es147.dir/build
+.PHONY : es147/fast
+
+#=============================================================================
+# Target rules for targets named esassoluto
+
+# Build rule for target.
+esassoluto: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esassoluto
+.PHONY : esassoluto
+
+# fast build rule for target.
+esassoluto/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/esassoluto.dir/build.make CMakeFiles/esassoluto.dir/build
+.PHONY : esassoluto/fast
+
+#=============================================================================
+# Target rules for targets named main3
+
+# Build rule for target.
+main3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main3
+.PHONY : main3
+
+# fast build rule for target.
+main3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/build
+.PHONY : main3/fast
+
+#=============================================================================
+# Target rules for targets named maxcol
+
+# Build rule for target.
+maxcol: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 maxcol
+.PHONY : maxcol
+
+# fast build rule for target.
+maxcol/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxcol.dir/build.make CMakeFiles/maxcol.dir/build
+.PHONY : maxcol/fast
+
+#=============================================================================
+# Target rules for targets named giochino
+
+# Build rule for target.
+giochino: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 giochino
+.PHONY : giochino
+
+# fast build rule for target.
+giochino/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/giochino.dir/build.make CMakeFiles/giochino.dir/build
+.PHONY : giochino/fast
+
+#=============================================================================
+# Target rules for targets named main4
+
+# Build rule for target.
+main4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main4
+.PHONY : main4
+
+# fast build rule for target.
+main4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main4.dir/build.make CMakeFiles/main4.dir/build
+.PHONY : main4/fast
+
+#=============================================================================
+# Target rules for targets named ciclifor
+
+# Build rule for target.
+ciclifor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ciclifor
+.PHONY : ciclifor
+
+# fast build rule for target.
+ciclifor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ciclifor.dir/build.make CMakeFiles/ciclifor.dir/build
+.PHONY : ciclifor/fast
+
+#=============================================================================
+# Target rules for targets named es2
+
+# Build rule for target.
+es2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 es2
+.PHONY : es2
+
+# fast build rule for target.
+es2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/es2.dir/build.make CMakeFiles/es2.dir/build
+.PHONY : es2/fast
+
+#=============================================================================
+# Target rules for targets named distanzaes
+
+# Build rule for target.
+distanzaes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 distanzaes
+.PHONY : distanzaes
+
+# fast build rule for target.
+distanzaes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/distanzaes.dir/build.make CMakeFiles/distanzaes.dir/build
+.PHONY : distanzaes/fast
+
+#=============================================================================
+# Target rules for targets named es1
+
+# Build rule for target.
+es1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 es1
+.PHONY : es1
+
+# fast build rule for target.
+es1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/es1.dir/build.make CMakeFiles/es1.dir/build
+.PHONY : es1/fast
+
+#=============================================================================
+# Target rules for targets named es3
+
+# Build rule for target.
+es3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 es3
+.PHONY : es3
+
+# fast build rule for target.
+es3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/es3.dir/build.make CMakeFiles/es3.dir/build
+.PHONY : es3/fast
+
+#=============================================================================
+# Target rules for targets named es4
+
+# Build rule for target.
+es4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 es4
+.PHONY : es4
+
+# fast build rule for target.
+es4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/es4.dir/build.make CMakeFiles/es4.dir/build
+.PHONY : es4/fast
 
 areacerchio.o: areacerchio.c.o
 
@@ -301,6 +444,60 @@ ciclifor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ciclifor.dir/build.make CMakeFiles/ciclifor.dir/ciclifor.c.s
 .PHONY : ciclifor.c.s
 
+distanzaes.o: distanzaes.c.o
+
+.PHONY : distanzaes.o
+
+# target to build an object file
+distanzaes.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/distanzaes.dir/build.make CMakeFiles/distanzaes.dir/distanzaes.c.o
+.PHONY : distanzaes.c.o
+
+distanzaes.i: distanzaes.c.i
+
+.PHONY : distanzaes.i
+
+# target to preprocess a source file
+distanzaes.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/distanzaes.dir/build.make CMakeFiles/distanzaes.dir/distanzaes.c.i
+.PHONY : distanzaes.c.i
+
+distanzaes.s: distanzaes.c.s
+
+.PHONY : distanzaes.s
+
+# target to generate assembly for a file
+distanzaes.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/distanzaes.dir/build.make CMakeFiles/distanzaes.dir/distanzaes.c.s
+.PHONY : distanzaes.c.s
+
+es1.o: es1.c.o
+
+.PHONY : es1.o
+
+# target to build an object file
+es1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/es1.dir/build.make CMakeFiles/es1.dir/es1.c.o
+.PHONY : es1.c.o
+
+es1.i: es1.c.i
+
+.PHONY : es1.i
+
+# target to preprocess a source file
+es1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/es1.dir/build.make CMakeFiles/es1.dir/es1.c.i
+.PHONY : es1.c.i
+
+es1.s: es1.c.s
+
+.PHONY : es1.s
+
+# target to generate assembly for a file
+es1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/es1.dir/build.make CMakeFiles/es1.dir/es1.c.s
+.PHONY : es1.c.s
+
 es147.o: es147.c.o
 
 .PHONY : es147.o
@@ -327,6 +524,141 @@ es147.s: es147.c.s
 es147.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/es147.dir/build.make CMakeFiles/es147.dir/es147.c.s
 .PHONY : es147.c.s
+
+es2.o: es2.c.o
+
+.PHONY : es2.o
+
+# target to build an object file
+es2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/es2.dir/build.make CMakeFiles/es2.dir/es2.c.o
+.PHONY : es2.c.o
+
+es2.i: es2.c.i
+
+.PHONY : es2.i
+
+# target to preprocess a source file
+es2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/es2.dir/build.make CMakeFiles/es2.dir/es2.c.i
+.PHONY : es2.c.i
+
+es2.s: es2.c.s
+
+.PHONY : es2.s
+
+# target to generate assembly for a file
+es2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/es2.dir/build.make CMakeFiles/es2.dir/es2.c.s
+.PHONY : es2.c.s
+
+es3.o: es3.c.o
+
+.PHONY : es3.o
+
+# target to build an object file
+es3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/es3.dir/build.make CMakeFiles/es3.dir/es3.c.o
+.PHONY : es3.c.o
+
+es3.i: es3.c.i
+
+.PHONY : es3.i
+
+# target to preprocess a source file
+es3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/es3.dir/build.make CMakeFiles/es3.dir/es3.c.i
+.PHONY : es3.c.i
+
+es3.s: es3.c.s
+
+.PHONY : es3.s
+
+# target to generate assembly for a file
+es3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/es3.dir/build.make CMakeFiles/es3.dir/es3.c.s
+.PHONY : es3.c.s
+
+es4.o: es4.c.o
+
+.PHONY : es4.o
+
+# target to build an object file
+es4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/es4.dir/build.make CMakeFiles/es4.dir/es4.c.o
+.PHONY : es4.c.o
+
+es4.i: es4.c.i
+
+.PHONY : es4.i
+
+# target to preprocess a source file
+es4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/es4.dir/build.make CMakeFiles/es4.dir/es4.c.i
+.PHONY : es4.c.i
+
+es4.s: es4.c.s
+
+.PHONY : es4.s
+
+# target to generate assembly for a file
+es4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/es4.dir/build.make CMakeFiles/es4.dir/es4.c.s
+.PHONY : es4.c.s
+
+esassoluto.o: esassoluto.c.o
+
+.PHONY : esassoluto.o
+
+# target to build an object file
+esassoluto.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/esassoluto.dir/build.make CMakeFiles/esassoluto.dir/esassoluto.c.o
+.PHONY : esassoluto.c.o
+
+esassoluto.i: esassoluto.c.i
+
+.PHONY : esassoluto.i
+
+# target to preprocess a source file
+esassoluto.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/esassoluto.dir/build.make CMakeFiles/esassoluto.dir/esassoluto.c.i
+.PHONY : esassoluto.c.i
+
+esassoluto.s: esassoluto.c.s
+
+.PHONY : esassoluto.s
+
+# target to generate assembly for a file
+esassoluto.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/esassoluto.dir/build.make CMakeFiles/esassoluto.dir/esassoluto.c.s
+.PHONY : esassoluto.c.s
+
+escorona.o: escorona.c.o
+
+.PHONY : escorona.o
+
+# target to build an object file
+escorona.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/escorona.dir/build.make CMakeFiles/escorona.dir/escorona.c.o
+.PHONY : escorona.c.o
+
+escorona.i: escorona.c.i
+
+.PHONY : escorona.i
+
+# target to preprocess a source file
+escorona.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/escorona.dir/build.make CMakeFiles/escorona.dir/escorona.c.i
+.PHONY : escorona.c.i
+
+escorona.s: escorona.c.s
+
+.PHONY : escorona.s
+
+# target to generate assembly for a file
+escorona.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/escorona.dir/build.make CMakeFiles/escorona.dir/escorona.c.s
+.PHONY : escorona.c.s
 
 giochino.o: giochino.c.o
 
@@ -381,6 +713,45 @@ libk.s: libk.c.s
 libk.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/es147.dir/build.make CMakeFiles/es147.dir/libk.c.s
 .PHONY : libk.c.s
+
+library.o: library.c.o
+
+.PHONY : library.o
+
+# target to build an object file
+library.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sommarr.dir/build.make CMakeFiles/sommarr.dir/library.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printes.dir/build.make CMakeFiles/printes.dir/library.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/escorona.dir/build.make CMakeFiles/escorona.dir/library.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/esassoluto.dir/build.make CMakeFiles/esassoluto.dir/library.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/distanzaes.dir/build.make CMakeFiles/distanzaes.dir/library.c.o
+.PHONY : library.c.o
+
+library.i: library.c.i
+
+.PHONY : library.i
+
+# target to preprocess a source file
+library.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sommarr.dir/build.make CMakeFiles/sommarr.dir/library.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printes.dir/build.make CMakeFiles/printes.dir/library.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/escorona.dir/build.make CMakeFiles/escorona.dir/library.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/esassoluto.dir/build.make CMakeFiles/esassoluto.dir/library.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/distanzaes.dir/build.make CMakeFiles/distanzaes.dir/library.c.i
+.PHONY : library.c.i
+
+library.s: library.c.s
+
+.PHONY : library.s
+
+# target to generate assembly for a file
+library.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sommarr.dir/build.make CMakeFiles/sommarr.dir/library.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printes.dir/build.make CMakeFiles/printes.dir/library.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/escorona.dir/build.make CMakeFiles/escorona.dir/library.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/esassoluto.dir/build.make CMakeFiles/esassoluto.dir/library.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/distanzaes.dir/build.make CMakeFiles/distanzaes.dir/library.c.s
+.PHONY : library.c.s
 
 main.o: main.c.o
 
@@ -517,6 +888,60 @@ maxcolfunc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxcol.dir/build.make CMakeFiles/maxcol.dir/maxcolfunc.c.s
 .PHONY : maxcolfunc.c.s
 
+merge.o: merge.c.o
+
+.PHONY : merge.o
+
+# target to build an object file
+merge.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/merge.c.o
+.PHONY : merge.c.o
+
+merge.i: merge.c.i
+
+.PHONY : merge.i
+
+# target to preprocess a source file
+merge.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/merge.c.i
+.PHONY : merge.c.i
+
+merge.s: merge.c.s
+
+.PHONY : merge.s
+
+# target to generate assembly for a file
+merge.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/merge.c.s
+.PHONY : merge.c.s
+
+mergelib.o: mergelib.c.o
+
+.PHONY : mergelib.o
+
+# target to build an object file
+mergelib.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/mergelib.c.o
+.PHONY : mergelib.c.o
+
+mergelib.i: mergelib.c.i
+
+.PHONY : mergelib.i
+
+# target to preprocess a source file
+mergelib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/mergelib.c.i
+.PHONY : mergelib.c.i
+
+mergelib.s: mergelib.c.s
+
+.PHONY : mergelib.s
+
+# target to generate assembly for a file
+mergelib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/merge.dir/build.make CMakeFiles/merge.dir/mergelib.c.s
+.PHONY : mergelib.c.s
+
 password.o: password.c.o
 
 .PHONY : password.o
@@ -543,6 +968,60 @@ password.s: password.c.s
 password.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main3.dir/build.make CMakeFiles/main3.dir/password.c.s
 .PHONY : password.c.s
+
+printeins.o: printeins.c.o
+
+.PHONY : printeins.o
+
+# target to build an object file
+printeins.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printes.dir/build.make CMakeFiles/printes.dir/printeins.c.o
+.PHONY : printeins.c.o
+
+printeins.i: printeins.c.i
+
+.PHONY : printeins.i
+
+# target to preprocess a source file
+printeins.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printes.dir/build.make CMakeFiles/printes.dir/printeins.c.i
+.PHONY : printeins.c.i
+
+printeins.s: printeins.c.s
+
+.PHONY : printeins.s
+
+# target to generate assembly for a file
+printeins.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printes.dir/build.make CMakeFiles/printes.dir/printeins.c.s
+.PHONY : printeins.c.s
+
+sommarr.o: sommarr.c.o
+
+.PHONY : sommarr.o
+
+# target to build an object file
+sommarr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sommarr.dir/build.make CMakeFiles/sommarr.dir/sommarr.c.o
+.PHONY : sommarr.c.o
+
+sommarr.i: sommarr.c.i
+
+.PHONY : sommarr.i
+
+# target to preprocess a source file
+sommarr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sommarr.dir/build.make CMakeFiles/sommarr.dir/sommarr.c.i
+.PHONY : sommarr.c.i
+
+sommarr.s: sommarr.c.s
+
+.PHONY : sommarr.s
+
+# target to generate assembly for a file
+sommarr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sommarr.dir/build.make CMakeFiles/sommarr.dir/sommarr.c.s
+.PHONY : sommarr.c.s
 
 tabverit.o: tabverit.c.o
 
@@ -571,6 +1050,33 @@ tabverit.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tabverit.dir/build.make CMakeFiles/tabverit.dir/tabverit.c.s
 .PHONY : tabverit.c.s
 
+test.o: test.c.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.o
+.PHONY : test.c.o
+
+test.i: test.c.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.i
+.PHONY : test.c.i
+
+test.s: test.c.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.s
+.PHONY : test.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -580,13 +1086,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ciclifor"
+	@echo "... distanzaes"
+	@echo "... es1"
 	@echo "... es147"
+	@echo "... es2"
+	@echo "... es3"
+	@echo "... es4"
+	@echo "... esassoluto"
+	@echo "... escorona"
 	@echo "... giochino"
 	@echo "... main2"
 	@echo "... main3"
 	@echo "... main4"
 	@echo "... maxcol"
+	@echo "... merge"
+	@echo "... printes"
+	@echo "... sommarr"
 	@echo "... tabverit"
+	@echo "... test"
 	@echo "... untitled2"
 	@echo "... areacerchio.o"
 	@echo "... areacerchio.i"
@@ -594,15 +1111,39 @@ help:
 	@echo "... ciclifor.o"
 	@echo "... ciclifor.i"
 	@echo "... ciclifor.s"
+	@echo "... distanzaes.o"
+	@echo "... distanzaes.i"
+	@echo "... distanzaes.s"
+	@echo "... es1.o"
+	@echo "... es1.i"
+	@echo "... es1.s"
 	@echo "... es147.o"
 	@echo "... es147.i"
 	@echo "... es147.s"
+	@echo "... es2.o"
+	@echo "... es2.i"
+	@echo "... es2.s"
+	@echo "... es3.o"
+	@echo "... es3.i"
+	@echo "... es3.s"
+	@echo "... es4.o"
+	@echo "... es4.i"
+	@echo "... es4.s"
+	@echo "... esassoluto.o"
+	@echo "... esassoluto.i"
+	@echo "... esassoluto.s"
+	@echo "... escorona.o"
+	@echo "... escorona.i"
+	@echo "... escorona.s"
 	@echo "... giochino.o"
 	@echo "... giochino.i"
 	@echo "... giochino.s"
 	@echo "... libk.o"
 	@echo "... libk.i"
 	@echo "... libk.s"
+	@echo "... library.o"
+	@echo "... library.i"
+	@echo "... library.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -618,12 +1159,27 @@ help:
 	@echo "... maxcolfunc.o"
 	@echo "... maxcolfunc.i"
 	@echo "... maxcolfunc.s"
+	@echo "... merge.o"
+	@echo "... merge.i"
+	@echo "... merge.s"
+	@echo "... mergelib.o"
+	@echo "... mergelib.i"
+	@echo "... mergelib.s"
 	@echo "... password.o"
 	@echo "... password.i"
 	@echo "... password.s"
+	@echo "... printeins.o"
+	@echo "... printeins.i"
+	@echo "... printeins.s"
+	@echo "... sommarr.o"
+	@echo "... sommarr.i"
+	@echo "... sommarr.s"
 	@echo "... tabverit.o"
 	@echo "... tabverit.i"
 	@echo "... tabverit.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 
