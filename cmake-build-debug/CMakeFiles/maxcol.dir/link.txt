@@ -1,1 +1,0 @@
-/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/maxcol.dir/maxcol.c.o CMakeFiles/maxcol.dir/maxcolfunc.c.o  -o maxcol.exe -Wl,--out-implib,libmaxcol.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

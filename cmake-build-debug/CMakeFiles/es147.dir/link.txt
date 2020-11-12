@@ -1,1 +1,0 @@
-/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/es147.dir/es147.c.o CMakeFiles/es147.dir/libk.c.o  -o es147.exe -Wl,--out-implib,libes147.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
