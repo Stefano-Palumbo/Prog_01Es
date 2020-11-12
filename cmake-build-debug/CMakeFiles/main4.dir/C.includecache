@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/IO/CLionProjects/untitled2/areacerchio.c
+areacerchio.h
+/cygdrive/c/Users/IO/CLionProjects/untitled2/areacerchio.h
+
+/cygdrive/c/Users/IO/CLionProjects/untitled2/areacerchio.h
+

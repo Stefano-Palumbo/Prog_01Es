@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/main4.dir/main3.c.o CMakeFiles/main4.dir/areacerchio.c.o  -o main4.exe -Wl,--out-implib,libmain4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

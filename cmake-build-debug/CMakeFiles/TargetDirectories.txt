@@ -1,0 +1,11 @@
+/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/ciclifor.dir
+/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/main4.dir
+/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/giochino.dir
+/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/maxcol.dir
+/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/main3.dir
+/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/es147.dir
+/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/main2.dir
+/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/tabverit.dir
+/cygdrive/c/Users/IO/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir

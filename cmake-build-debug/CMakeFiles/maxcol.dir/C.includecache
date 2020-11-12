@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/IO/CLionProjects/untitled2/maxcol.c
+stdio.h
+-
+stdlib.h
+-
+maxcolfunc.h
+/cygdrive/c/Users/IO/CLionProjects/untitled2/maxcolfunc.h
+string.h
+-
+
+/cygdrive/c/Users/IO/CLionProjects/untitled2/maxcolfunc.c
+maxcolfunc.h
+/cygdrive/c/Users/IO/CLionProjects/untitled2/maxcolfunc.h
+stdio.h
+-
+string.h
+-
+
+/cygdrive/c/Users/IO/CLionProjects/untitled2/maxcolfunc.h
+string.h
+-
+
