@@ -9,14 +9,8 @@ void printa(int a[], unsigned long n){
 void arraysum(const int a[], const int b[], int c[], int n, int m){
     int cp = 0, cd = 0;
     for(int i = 0; i < n + m; i++){
-        if(i%2 == 0){
-            c[i] = a[cp];
-            cp++;
-        }
-        else{
-            c[i] = b[cd];
-            cd++;
-        }
+        if(i%2 == 0){c[i] = a[cp++];}
+        else{c[i] = b[cd++];}
         //printf("%i ", c[i]);
     }
 }
