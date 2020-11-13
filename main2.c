@@ -6,17 +6,27 @@ void printa(int a[], unsigned long n){
     printf("\n\n");
 }
 
-void arraysum(const int a[], const int b[], int c[], int n, int m){
+void arraysum(const int a[], const int b[], int c[], int n, int m, int *max){
     int cp = 0, cd = 0;
-    for(int i = 0; i < n + m; i++){
-        if(i%2 == 0){c[i] = a[cp++];}
-        else{c[i] = b[cd++];}
-        //printf("%i ", c[i]);
+    if(n > m){*max = n;}
+    else{*max = m;}
+
+    for(int i = 0; i < *max * 2; i++){
+        if(i%2 == 0){
+            if(cp < n){c[i] = a[cp++];}
+            else{c[i] = -1;}
+        }
+        else{
+            if(cd < m){c[i] = b[cd++];}
+            else{c[i] = -1;}
+            //printf("%i ", c[i]);
+        }
     }
 }
 
+
 int main(){
-    int n, m;
+    int n, m, max;
     printf("Inserisci la dimensione dell'array 1\n");
     scanf("%i", &n);
     int a[n];
@@ -35,6 +45,6 @@ int main(){
     printa(a, n);
     printa(b, m);
     int c[n + m];
-    arraysum(a, b, c, n, m);
-    printa(c, n + m);
+    arraysum(a, b, c, n, m, &max);
+    printa(c, max * 2);
 }
