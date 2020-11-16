@@ -26,22 +26,25 @@ int main(){
     scanf("%i", &col);
     riempi2d(a, rig, col);*/
     char testo[] = "Il nostro sito usa i cookie per offrire il miglior servizio possibile e un’esperienza di navigazione ottimale. Cliccando sul pulsante “Sì, accetto”, l’utente acconsente all’utilizzo dei cookies da noi impiegati e di tecnologie similari (ad es. pixel). Oltre ai cookie necessari per ragioni tecniche, vengono utilizzati anche cookie che, tra l’altro, migliorano le prestazioni del sito e offrono contenuti personalizzati per l’utente. Premendo il pulsante “Impostazioni dei cookie” è possibile modificare e rifiutare in qualsiasi momento l’utilizzo dei cookie e usare il sito senza i cookie. L’apposito link è disponibile anche in fondo alla pagina del sito. Puoi trovare maggiori informazioni nella nostra politica sulla privacy.";
-    char chiave[] = "sa";
+    char chiave[] = "ra";
     char delim[] = " ";
-    int index;
+    int index, count = 0;
     int indexarr[100];
     char *token;
-    token = strtok(testo, delim);
-    int score = bestmatch(testo, chiave, &index);
+    /*int score = bestmatch(testo, chiave, &index);
     int arrlen = strmatch(testo, chiave, indexarr);
     printf("%i %i\n", score, index);
     for(int i = 0; i < arrlen; i++){
         printf("%i -> %c%c\n",indexarr[i], testo[indexarr[i]], testo[indexarr[i] + 1]);
-    }
+    }*/
+    token = strtok(testo, delim);
     while (token != NULL)
     {
-        printf ("%s\n",token);
+        //printf ("%s\n",token);
+        if(!strncmp(&token[strlen(token) - 3], "are", 3)){
+            count++;
+        }
         token = strtok (NULL, delim);
     }
-    printf("Modifica di Prova!");
+    printf("%i", count);
 }
