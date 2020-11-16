@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include "kesimolib.h"
 int main(){
-    int n, k, kmax;
+    int n, arr[100], k, kmax;
     printf("Inserisci il size dell'array\n");
     scanf("%i", &n);
-    int arr[n];
 
     for(int i = 0; i < n; i++){
         printf("Inserisci il numero alla posizione %i\n", i);
