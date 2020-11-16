@@ -14,7 +14,11 @@ int main(){
     printf("inserisci il k-esimo elemento\n");
     scanf("%i", &k);
 
-    kmax = kesimo(arr, n, k);
+    for(int i = 0; i < n; i++){
+        printf("%i ", arr[i]);
+    }
+    printf("\n");
+    kmax = k_massimo(arr, n, k);
     printf("%i", kmax);
 
 }
