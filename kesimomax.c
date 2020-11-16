@@ -19,5 +19,5 @@ int main(){
     printf("\n");
     kmax = k_massimo(arr, n, k);
     printf("%i", kmax);
-
+    printf("Modifica su VSCode!");
 }
