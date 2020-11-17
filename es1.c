@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(){
     int n, pos = 0, neg = 0;
     float singlen;
