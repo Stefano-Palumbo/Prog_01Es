@@ -6,7 +6,6 @@
 int main(){
     int arr[] = {7,8,4,6,0,1,5,9,3,2,17,14,18,11,12};
     size_t n = sizeof(arr)/sizeof(arr[0]);
-    int banana = 3
     //insertion(arr,n);
     selectionmin(arr, n);
     for(int i = 0; i < n; i++){
