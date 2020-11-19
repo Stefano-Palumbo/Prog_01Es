@@ -11,3 +11,28 @@ void insertion(int arr[], int n){
         arr[j + 1] = key;
     }
 }
+
+void swap(int* n, int* m){
+    int temp = *n;
+    *n = *m;
+    *m = temp;
+}
+
+void findmin(int arr[], int len, int* minind){
+    int minfun = arr[0], minindfun = 0;
+    for(int i = 0; i < len; i++){
+        if(arr[i] < minfun){
+            minfun = arr[i];
+            minindfun = i;
+        }
+        *minind = minindfun;
+    }
+}
+
+void selectionmin(int arr[], int len){
+    int swapindex = 0;
+    for(int i = 0; i < len; i++){
+        findmin(&arr[i], len - i, &swapindex);
+        swap(&arr[i], &arr[swapindex + i]);
+    }
+}
