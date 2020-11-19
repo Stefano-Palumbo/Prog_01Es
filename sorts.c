@@ -17,5 +17,6 @@ int main(){
         printf("%i\n", arr2[i]);
     }
     printf("%i %i\n", orderedindex, length);
+    //Tests
 }
 
