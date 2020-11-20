@@ -10,7 +10,7 @@ int main()
     int maxlen = 0, index;
     while (token != NULL)
     {
-        char *address1 = &testo;
+        char *address1 = testo;
         char *address2 = &(*token);
         int calcolo = (address1 - address2) * -1;
         printf("%p %p %s %i\n", &(*token), &testo, token, strlen(token));
