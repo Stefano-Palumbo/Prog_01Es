@@ -11,7 +11,7 @@ int main()
     int maxlen = 0, index;
     while (token != NULL)
     {
-        printf("%p %p %s %i\n", token, testo, token, strlen(token));
+        printf("%i %i %s %i\n", token, testo, token, strlen(token));
         if (maxlen < strlen(token))
         {
             maxlen = strlen(token);
