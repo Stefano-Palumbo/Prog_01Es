@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/ae37badc0b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body, html {
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+            font-family: 'Roboto', sans-serif;
+            width: calc(100vw - (100vw - 100%));
+        }
+
+        .home {
+            font-family: 'Roboto', sans-serif;
+            font-size: 36px;
+            position: absolute;
+            font-weight: 600;
+            color: black;
+            text-decoration: none;
+            text-align: center;
+            width: 99%;
+            padding: 0;
+            margin: 0;
+            top: 15px;
+        }
+
+        p.home {
+            position: relative;
+            font-size: 18px;
+            font-weight: 100;
+            top: 15px;
+        }
+
+        .home:hover {
+            color: rgb(50, 50, 50);
+        }
+
+        .highlight, .markdown-body {
+            font-size: 16px !important;
+        }
+
+        .gist-meta {
+            height: 0;
+            width: 0;
+            padding: 0 !important;
+        }
+
+        .gist {
+            position: relative;
+            top: 15px;
+            width: 70%;
+            margin: 0 250px;
+        }
+
+        .highlight pre {
+            white-space : pre-wrap !important;
+        }
+
+        .fa-home {
+            position: relative;
+            top: 10px;
+            left: 10px;
+            color: darkblue;
+            text-decoration: none;
+            z-index: 2;
+        }
+
+        .fa-home:hover {
+            color: blue;
+        }
+
+        h1.second {
+            position: relative;
+            left: 5px;
+            margin: 0;
+            width: 99%;
+            top: 15px;
+        }
+
+        #container {
+            position: relative;
+            width: 98%;
+            top: 20px;
+            left: 5px;
+            margin: 0;
+        }
+
+        #left {
+            width:auto;
+            float:left;
+            margin-right: 5px;
+        }
+
+        #right {
+            display: flex;
+            justify-content: center;
+            width: auto;
+            height: 100%;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <a class="fas fa-home fa-3x" href="index.html"></a>
+    <h1 class="home">Riciclatore Automatico</h1>
+    <p class="home">(richiede una connessione ad internet per la corretta visualizzazione)</p>
+    <script src="https://gist.github.com/Stefano-Palumbo/fcc692ff43123a908f14b7ce3f4ac706.js"></script>
+    <h1 class="second">Simulazione del programma:</h1>
+    <div id="container" style="height: 104px;">
+        <div id="left"><img src="../images/riciclatore1.jpg"></div>
+        <div id="right">Il programma, all'avvio, stampa la data della giornata attuale, e richiede il budget da cui attingere per l'inserimento dei rifiuti, per quanto riguarda la giornata stessa</div>
+    </div>
+    <div id="container" style="height: 412px;">
+        <div id="left"><img src="../images/riciclatore2.jpg"></div>
+        <div id="right">Una volta inserito il budget, viene presentata una lista con le opzioni possibili da effettuare, ovvero: Aggiungere un rifiuto, Passare alla giornata successiva, oppure Terminare il programma. Per quanto riguarda la prima opzione, il programma chiederà poi all'utente alcuni dettagli, come costo, nome e tipo di rifiuto, per poi aggiungerlo alla lista interna, sottraendo il costo dal budget giornaliero iniziale</div>
+    </div>
+    <div id="container" style="height: 101px;">
+        <div id="left"><img src="../images/riciclatore3.jpg"></div>
+        <div id="right">Vengono, però, effettuati alcuni controlli, in modo da assicurare la correttezza dei dati inseriti. ad esempio, nel caso di un costo del rifiuto superiore al budget presente, il programma mostrerà un errore e non aggiungerà il rifiuto alla lista interna</div>
+    </div>
+    <div id="container" style="height: 149px;">
+        <div id="left"><img src="../images/riciclatore4.jpg"></div>
+        <div id="right">&larr; Messaggio di errore nel caso di costo troppo elevato</div>
+    </div>
+    <div id="container" style="height: 287px;">
+        <div id="left"><img src="../images/riciclatore5.jpg"></div>
+        <div id="right">Il programma, inoltre, verifica la correttezza del tipo inserito con un "dizionario" predefinito, in modo da assicurarsi che sia stato digitato senza errori. Di base vengono accettati i termini carta,plastica,vetro,organico,indifferenziata. Il controllo è case-insensitive, ovvero non differenzia tra lettere maiuscole e minuscole</div>
+    </div>
+    <div id="container" style="height: 149px;">
+        <div id="left"><img src="../images/riciclatore6.jpg"></div>
+        <div id="right">&larr; Messaggio di errore nel caso di tipo di rifiuto non riconosciuto</div>
+    </div>
+    <div id="container" style="height: 386px;">
+        <div id="left"><img src="../images/riciclatore7.jpg"></div>
+        <div id="right">&larr; Esempio di test per controllo case-insensitive. Il programma non ha mostrato messaggi di errore nonostante la stringa presenti diverse lettere maiuscole e minuscole</div>
+    </div>
+    <div id="container" style="height: 128px;">
+        <div id="left"><img src="../images/riciclatore10.jpg"></div>
+        <div id="right">Come ultimo controllo, il programma monitora anche il numero di rifiuti di un determinato tipo. Se, nell'inserimento da parte dell'utente, si dovesse eccedere la soglia preimpostata (di base a 20), il programma non completa i'inserimento e mostra un messaggio di errore</div>
+    </div>
+    <div id="container" style="height: 92px;">
+        <div id="left"><img src="../images/riciclatore8.jpg"></div>
+        <div id="right">Nel caso si scelga di passare al giorno successivo, invece, il programma ci permetterà di simulare una nuova data, aumentata di un giorno rispetto alla precedente, dove potrà essere inserito nuovamente un budget giornaliero</div>
+    </div>
+    <div id="container" style="height: 182px;">
+        <div id="left"><img src="../images/riciclatore9.jpg"></div>
+        <div id="right">Inoltre, se la data dovesse risultare come domenica, il programma, prima di richiedere nuovamente un budget, stamperà la lista dei rifiuti già inseriti, in ordine decrescente di costo</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/ae37badc0b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body, html {
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+            font-family: 'Roboto', sans-serif;
+            width: calc(100vw - (100vw - 100%));
+        }
+
+        .home {
+            font-family: 'Roboto', sans-serif;
+            font-size: 36px;
+            position: absolute;
+            font-weight: 600;
+            color: black;
+            text-decoration: none;
+            text-align: center;
+            width: 99%;
+            padding: 0;
+            margin: 0;
+            top: 15px;
+        }
+
+        p.home {
+            position: relative;
+            font-size: 18px;
+            font-weight: 100;
+            top: 15px;
+        }
+
+        .home:hover {
+            color: rgb(50, 50, 50);
+        }
+
+        .highlight, .markdown-body {
+            font-size: 16px !important;
+        }
+
+        .gist-meta {
+            height: 0;
+            width: 0;
+            padding: 0 !important;
+        }
+
+        .gist {
+            position: relative;
+            top: 15px;
+            width: 70%;
+            margin: 0 250px;
+        }
+
+        .highlight pre {
+            white-space : pre-wrap !important;
+        }
+
+        .fa-home {
+            position: relative;
+            top: 10px;
+            left: 10px;
+            color: darkblue;
+            text-decoration: none;
+            z-index: 2;
+        }
+
+        .fa-home:hover {
+            color: blue;
+        }
+
+        h1.second {
+            position: relative;
+            left: 5px;
+            margin: 0;
+            width: 99%;
+            top: 15px;
+        }
+
+        #container {
+            position: relative;
+            width: 98%;
+            top: 20px;
+            left: 5px;
+            margin: 0;
+        }
+
+        #left {
+            width:auto;
+            float:left;
+            margin-right: 5px;
+        }
+
+        #right {
+            display: flex;
+            justify-content: center;
+            width: auto;
+            height: 100%;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <a class="fas fa-home fa-3x" href="../index.html"></a>
+    <h1 class="home">Gioco delle coppie di carte</h1>
+    <p class="home">(richiede una connessione ad internet per la corretta visualizzazione)</p>
+    <script src="https://gist.github.com/Stefano-Palumbo/76fd1f849cf44cd8eb06babfa013b74c.js"></script>
+    <h1 class="second">Simulazione del programma:</h1>
+    <div id="container" style="height: 157px;">
+        <div id="left"><img src="../images/coppie1.jpg"></div>
+        <div id="right">Il programma, all'avvio, richiede i nickname dei due giocatori (in questo caso Andrea come P1 e Stefano come P2) e il numero di scambi da effettuare sul mazzo (40)</div>
+    </div>
+    <div id="container" style="height: 314px;">
+        <div id="left"><img src="../images/carte2.jpg"></div>
+        <div id="right">Viene scelto casualmente e poi comunicato il giocatore che inizia la partita. Viene stampato il mazzo, inizialmente totalmente coperto, e il punteggio del giocatore attuale. l'utente può, poi, effettuare la scelta delle due carte. ad ogni scelta effettuata è possibile visualizzare la carta desiderata. Nel caso in cui le carte scelte hanno divero valore, il programma passa il turno all'altro giocatore</div>
+    </div>
+    <div id="container" style="height: 317px;">
+        <div id="left"><img src="../images/coppie3.jpg"></div>
+        <div id="right">Una volta cambiato giocatore, potrà anche lui effettuare la sua scelta. In questo caso, dove il giocatore attuale riesce a scegliere due carte di ugual valore, il suo turno continua e viene stampato un messaggio di "conferma"</div>
+    </div>
+    <div id="container" style="height: 171px;">
+        <div id="left"><img src="../images/coppie4.jpg"></div>
+        <div id="right">Dopo che un giocatore trova una coppia di carte, le stesse vengono stampate come "scoperte" all'inizio del turno, e viene mostrato il punteggio aggiornato, aumentato di 1</div>
+    </div>
+    <div id="container" style="height: 324px;">
+        <div id="left"><img src="../images/coppie10.jpg" height="320px"></div>
+        <div id="right">Le scelte effettuate dall'utente, inoltre, vengono controllate e verificate, sia per quanto riguarda il range (0-39), sia per la scelta di una carta già scoperta, sia per la doppia scelta della stessa carta</div>
+    </div>
+    <div id="container" style="height: 198px; margin-top: 10px;">
+        <div id="left"><img src="../images/coppie12.jpg"></div>
+        <div id="right" style="float: left; margin-left: 15px;">Una volta raggiunte le 40 carte scoperte, la partita viene interrotta</div>
+    </div>
+    <div id="container" style="height: 56px;">
+        <div id="left"><img src="../images/coppie11.jpg"></div>
+        <div id="right" style="float: left; margin-left: 15px;">A seconda del risultato, viene comunicato il nickname ed il punteggio del giocatore vincitore</div>
+    </div>
+    <div id="container" style="height: 43px;">
+        <div id="left"><img src="../images/coppie13.jpg"></div>
+        <div id="right" style="float: left; margin-left: 15px;">Oppure viene mostrato un messaggio di parità tra i due giocatori</div>
+    </div>
+    <div id="container" style="height: 87.63px;">
+        <div id="left"><img src="../images/coppie7.jpg" width="1300px"></div>
+        <div id="right">Di lato sono presenti ulteriori test per mostrare la casualità del mescolaggio del mazzo e della scelta del giocatore del primo turno (P1 nick -> Andrea, P2 nick -> Stefano)</div>
+    </div>
+    <div id="container" style="height: 84.38px;">
+        <div id="left"><img src="../images/coppie8.jpg" width="1300px"></div>
+        <div id="right">Secondo test, viene scelto P2 per il primo turno</div>
+    </div>
+    <div id="container" style="height: 84.57px;">
+        <div id="left"><img src="../images/coppie9.jpg" width="1300px"></div>
+        <div id="right">Terzo test, viene scelto P1 per il primo turno</div>
+    </div>
+</body>
+</html>

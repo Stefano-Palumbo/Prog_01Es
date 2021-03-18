@@ -4,3 +4,4 @@
 /build/
 *.exe
 *.exe.stackdump
+/filerubato.c
