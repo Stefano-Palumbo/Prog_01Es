@@ -5,3 +5,7 @@
 *.exe
 *.exe.stackdump
 /filerubato.c
+*.vcxproj
+*.vcxproj.filters
+*.cmake
+*.sln

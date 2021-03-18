@@ -2,7 +2,8 @@ cmake_minimum_required(VERSION 3.17)
 project(untitled2 C)
 
 set(CMAKE_C_STANDARD 99)
-
+set(dirc "Prog_01Es/")
+set(dircpp "Prog_02Es/")
 add_executable(untitled2 main.c)
 add_executable(main2 main2.c)
 add_executable(main3 password.c)
